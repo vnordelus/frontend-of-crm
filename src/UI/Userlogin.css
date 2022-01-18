@@ -1,0 +1,33 @@
+
+.contain{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:rgb(89, 138, 230);
+    justify-content: center;
+    align-items: center;
+    
+}
+.can{
+    width:400px;
+    height:600px;
+    border-radius: 25px;
+    align-items: center;
+}
+Form{
+    background-color:white;
+    color:black;
+    border-radius:5px;
+    box-shadow: 4px 4px 4px 9px darkblue;
+}
+
+.text{
+    background-color:white;
+    color:black;
+}
+.login{
+    width:100%;
+}
