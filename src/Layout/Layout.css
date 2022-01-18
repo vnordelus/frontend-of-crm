@@ -1,0 +1,22 @@
+.main-layout{
+    display:grid;
+    grid-template-rows: 90px auto 4rem;
+    grid-template-areas: 
+    "header"
+    "main-area"
+    "footer"
+}
+header {
+    grid-area:header;
+    color:white;
+}
+main {
+    grid-area:main-area;
+    min-height: 90vh;
+}
+footer{
+    grid-area: footer;
+    background-image:linear-gradient(darkblue, blue);
+    padding: 2rem;
+    color:white;
+}
